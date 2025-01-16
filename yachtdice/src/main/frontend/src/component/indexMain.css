@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* 세로로 배치 */
+    justify-content: first baseline;
+    align-items: center; /* 수평 중앙에 배치 */
+    height: 100vh;
+    background-color: #e7f5f8;
+    padding-top: 40px; /* 상단에 약간의 여백을 추가 */
+}
+
+button {
+    border-radius: 5px; /* 버튼 모서리 둥글게 */
+    cursor: pointer; /* 커서 모양 변경 */
+    font-weight: bolder;
+}
+
+.container {
+    position: relative; /* 부모 요소에 relative 포지션을 설정 */
+    height: 300px;
+    width: 500px;
+    max-width: 1500px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 20px; /* 첫 번째 div와의 간격 */
+}
+
+.inner-text {
+    margin-bottom: 20px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid black;
+}
+
+select {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+
+#submit {
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+}
+
+#outer-text > h1 {
+    font-size: 3rem; /* h1 태그 텍스트 크기 크게 설정 */
+}
